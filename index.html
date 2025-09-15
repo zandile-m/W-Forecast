@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="stylesheet" href="src/style.css" />
+    
+    <script
+      
+    ></script>
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+   <div class="weather-app">
+      <form id="city-form">
+        <div class="row">
+          <div class="col-6">
+            <input
+              class="form-control"
+              placeholder="Enter a City"
+              id="city-input"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              class="form-control btn btn-secondary"
+              type="submit"
+              value="Search"
+              id="search-button"
+            />
+          </div>
+          <div class="col-3">
+            <input
+              class="form-control btn btn-light"
+              type="submit"
+              value="Current"
+              id="current-city-button"
+            />
+          </div>
+        </div>
+      </form>
+      <div id="weather-report" style="display: none">
+        <h1 class="city">
+          <span id="current-city"></span>, <span id="current-country"></span>
+        </h1>
+        <p class="current-date" id="current-date"></p>
+        <p class="current-weather">
+          <span id="current-weather-icon"> </span>
+          <span id="temperature-digits"> </span>
+          <a href="#" class="active" id="celsius">°C</a>
+          <span class="temperature-divider">|</span
+          ><a href="#" id="fahrenheit"> °F</a>
+          <span id="weather-description"></span>
+        </p>
+        <hr />
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p class="weather-info">
+                Humidity: <span id="humidity"></span>%
+                <br />
+                Wind: <span id="wind-speed"></span> m/s
+              </p>
+            </div>
+
+            <div class="col">
+              <p class="sunrise-sunset">
+                Sunrise: <span id="sunrise-time"></span>
+                <br />
+                Sunset: <span id="sunset-time"></span>
+              </p>
+            </div>
+
+            <div class="col">
+              <p class="min-max-temp">
+                Min: <span id="min-temp"></span>°
+                <br />
+                Max: <span id="max-temp"></span>°
+              </p>
+            </div>
+          </div>
+          <hr />
+          <h3>Forecast</h3>
+          <div class="row" id="weather-forecast"></div>
+        </div>
+      </div>
+    </div>
+    <p id="open-source-link">
+      This project was coded by
+          <a href="https://github.com/zandile-m" target="_blank">Zandile</a> and is
+          <a href="" target="_blank"> on GitHub</a> and
+          <a href="" target="_blank">hosted on Netlify</a>
+
+      by zandile
+
+    </p>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
