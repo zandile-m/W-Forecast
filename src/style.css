@@ -13,3 +13,123 @@ h3 {
   font-weight: bold;
   font-size: 30px;
 }
+a {
+  color: #d8d0dc;
+}
+
+.weather-app-container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+.city {
+  font-size: 50px;
+  padding: 20px 0 0 0;
+  color: #cbc2d0;
+}
+
+.weather-app {
+  margin: 40px auto;
+  width: 700px;
+  border: 3px solid #52057b;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: linear-gradient(to top, #0b3a5a 0%, #0f172a 100%);
+}
+
+.min-max-temp {
+  color: #cec2d5;
+  font-size: 20px;
+  padding-right: 0px;
+  padding-left: 40px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.weather-info {
+  color: #76e4f7;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.sunrise-sunset {
+  color: #76e4f7;
+  font-size: 20px;
+  padding-left: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.current-date {
+  font-size: 25px;
+  color: #e9e4eb;
+}
+
+.weather-icon {
+  font-size: 300%;
+}
+
+.active {
+  font-weight: bold;
+  color: black;
+}
+
+.active:hover {
+  text-decoration: none;
+  cursor: default;
+  color: black;
+}
+
+.temperature-divider {
+  font-size: 20px;
+}
+
+#temperature-digits {
+  font-size: 70px;
+  font-weight: 350;
+  color: #d9d2dd;
+  vertical-align: middle;
+}
+
+#celsius {
+  font-size: 20px;
+}
+
+#fahrenheit {
+  font-size: 20px;
+}
+
+#weather-description {
+  text-transform: capitalize;
+  color: #e3d9e9;
+  vertical-align: middle;
+  padding-left: 30px;
+  font-size: 40px;
+}
+
+#current-city {
+  text-transform: capitalize;
+}
+
+#current-weather-icon img {
+  vertical-align: middle;
+  width: 35%;
+}
+
+#weather-forecast {
+  text-align: center;
+  color: #76e4f7;
+}
+
+#weather-forecast img {
+  width: 70px;
+}
+
+#open-source-link {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
