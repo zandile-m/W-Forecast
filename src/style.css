@@ -1,5 +1,5 @@
 body {
-  background-image: linear-gradient(135deg, #0f172a 0%, #0b3a5a 100%);
+  background-image: linear-gradient(135deg, #0b3a5a 0%, #0f172a 100%);
 }
 hr {
   border: none;
@@ -9,12 +9,12 @@ hr {
 h3 {
   line-height: 20px;
   padding: 0px 5px 20px 5px;
-  color: #e2dee4;
+  color: rgba(255,255,255,0.7);
   font-weight: bold;
   font-size: 30px;
 }
 a {
-  color: #d8d0dc;
+  color: rgba(255,255,255,0.7);
 }
 
 .weather-app-container {
@@ -25,20 +25,20 @@ a {
 .city {
   font-size: 50px;
   padding: 20px 0 0 0;
-  color: #cbc2d0;
+  color: rgba(255,255,255,0.7);
 }
 
 .weather-app {
   margin: 40px auto;
   width: 700px;
-  border: 3px solid #52057b;
+  border: 3px solid rgba(255,255,255,0.04);
   padding: 30px;
   border-radius: 10px;
   background-image: linear-gradient(to top, #0b3a5a 0%, #0f172a 100%);
 }
 
 .min-max-temp {
-  color: #cec2d5;
+  color: rgba(255,255,255,0.7);
   font-size: 20px;
   padding-right: 0px;
   padding-left: 40px;
@@ -47,14 +47,14 @@ a {
 }
 
 .weather-info {
-  color: #76e4f7;
+  color: rgba(255,255,255,0.7);
   font-size: 20px;
   text-align: center;
   font-weight: 500;
 }
 
 .sunrise-sunset {
-  color: #76e4f7;
+  color: rgba(255,255,255,0.7);
   font-size: 20px;
   padding-left: 15px;
   text-align: center;
@@ -63,7 +63,7 @@ a {
 
 .current-date {
   font-size: 25px;
-  color: #e9e4eb;
+  color: rgba(255,255,255,0.7);
 }
 
 .weather-icon {
@@ -72,7 +72,7 @@ a {
 
 .active {
   font-weight: bold;
-  color: black;
+  color: rgba(255,255,255,0.7);
 }
 
 .active:hover {
@@ -88,7 +88,7 @@ a {
 #temperature-digits {
   font-size: 70px;
   font-weight: 350;
-  color: #d9d2dd;
+  color: rgba(255,255,255,0.7);
   vertical-align: middle;
 }
 
@@ -102,7 +102,7 @@ a {
 
 #weather-description {
   text-transform: capitalize;
-  color: #e3d9e9;
+  color: rgba(255,255,255,0.7);
   vertical-align: middle;
   padding-left: 30px;
   font-size: 40px;
@@ -119,7 +119,7 @@ a {
 
 #weather-forecast {
   text-align: center;
-  color: #76e4f7;
+  color: rgba(255,255,255,0.7);
 }
 
 #weather-forecast img {
@@ -132,4 +132,5 @@ a {
   font-size: 20px;
   margin: 0 auto;
   margin-bottom: 40px;
+  color: whitesmoke;
 }
